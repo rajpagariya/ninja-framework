@@ -17,3 +17,6 @@ This is a script for fingerprinting existing services on the open ports of a web
 Raj Pagariya (@rajpagariya)
 - [Facebook](https://www.facebook.com/rajp05) | [Twitter](https://www.twitter.com/rajpagariya) | [LinkedIn](https://www.linkedin.com/in/rajpagariya/)
 - rajpagariya[at]hotmail(dot)com
+
+## Credits
+This project has been developed under the mentorship of Mr. Yogesh Ranjan Upadhyay (Director, [Ninja Info-Sec Services Pvt. Ltd.](www.ninjasecurity.co.in) during my summer internship.
