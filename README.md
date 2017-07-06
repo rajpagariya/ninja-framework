@@ -14,6 +14,6 @@ This is a script for fingerprinting existing services on the open ports of a web
 6. A beep tone at the end will specify that the screenshot of the output screen has been taken and the execution process has been completed.
 
 ## Author Contact Details
-Raj Pagariya
+Raj Pagariya (@rajpagariya)
 - [Facebook](https://www.facebook.com/rajp05) | [Twitter](https://www.twitter.com/rajpagariya) | [LinkedIn](https://www.linkedin.com/in/rajpagariya/)
 - rajpagariya[at]hotmail(dot)com
