@@ -4,5 +4,5 @@ echo "This script uses nmap and scrot. If you OS does not have scrot, you can in
 echo "Enter wesbite/IP Address of the target"
 read target
 nmap -v -PO -sV $target
-scrot Desktop/result.png
+scrot Desktop/$target.png
 
