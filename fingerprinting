@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "A script for scanning network ports, their services and saving the result as a screenshot on the Desktop"
+echo "This script uses nmap and scrot. If you OS does not have scrot, you can install it by executing the following command in Terminal: sudo apt-get install scrot."
+echo "Enter wesbite/IP Address of the target"
+read target
+nmap -v -PO -sV $target
+scrot Desktop/result.png
+
