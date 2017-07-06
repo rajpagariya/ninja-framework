@@ -19,4 +19,4 @@ Raj Pagariya (@rajpagariya)
 - rajpagariya[at]hotmail(dot)com
 
 ## Credits
-This project has been developed under the mentorship of Mr. Yogesh Ranjan Upadhyay (Director, [Ninja Info-Sec Services Pvt. Ltd.](www.ninjasecurity.co.in) during my summer internship.
+This project has been developed under the mentorship of Mr. Yogesh Ranjan Upadhyay (Director, [Ninja Info-Sec Services Pvt. Ltd.](www.ninjasecurity.co.in)) during my summer internship. He can be reached at director[at]ninjasecurity[dot]co[dot]in.
