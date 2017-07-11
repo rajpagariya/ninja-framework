@@ -1,5 +1,5 @@
 # Ninja Framework
-This is a framework for scanning network ports, their services and saves the results as screenshots to make your job easier. It uses nmap and scrot. You can use this framework in either network mode or single-host(device) mode.
+This is a framework for scanning network ports, their services and saving the results as screenshots to make your job easier. It uses nmap and scrot. You can use this framework in either network mode or single-host(device) mode.
 ###### In network mode: 
 1. It scans the given range of IP addresses one-by-one using default group of scrips.
 2. It uses default group of scripts to reduce the time complexity.
@@ -21,7 +21,7 @@ This is a framework for scanning network ports, their services and saves the res
 3. Simply run the file by typing `./ninja`.
 4. It will ask you whether you want to use it in network mode or singe-host mode. Choose your mode and follow instructions given along with each step.
 5. Just in case you go for specific script groups, it will clear the screen before proceeding to the next step.
-6. A beep tone at the end will specify that the screenshot of the output screen has been taken and a particular execution process has been completed.
+6. A beep tone at the end will notify that the screenshot of the output screen has been taken and a particular execution process has been completed.
 
 ## Author Contact Details
 Raj Pagariya (@rajpagariya)
