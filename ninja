@@ -16,9 +16,8 @@ echo "| FF        RR    RR   AA    AA  MM  MM  MM  EEEEEEEE  WWWWWWWWWW  OOOOOOO
 echo "|----------------------------------------------------------------------------------------------|"
 echo "Author: Raj Pagariya"
 
-#!/bin/bash
 echo "This is a framework for scanning network ports, their services and saves the results as screenshots to make your job easier."
-echo "It uses nmap and scrot. If you OS does not have scrot, you can install it by executing the following command in Terminal: sudo apt-get install scrot."
+echo "It uses nmap and scrot. If your OS does not have scrot, you can install it by executing the following command in Terminal: sudo apt-get install scrot."
 echo "You can use this framework in either network mode or single-host mode.
 In network mode: 1. It scans the given range of IP addresses one-by-one using default group of scrips.
 		 2. It uses default group of scripts to reduce the time complexity.
@@ -184,5 +183,5 @@ if [ $md = s ]
 	fi
 fi
 echo "Screenshots of the scan have been generated in the Ninja folder on your desktop. In case you opted for specific scripts, the filename of each file contains the name of the script it belongs to."
-echo "Thank you for using this script. You can mail your suggestions and improvements at rajpagariya@hotmail.com."
+echo "Thank you for using this framework. You can mail your suggestions and improvements at rajpagariya@hotmail.com."
 
