@@ -1,17 +1,26 @@
-# service-fingerprinting
-This is a script for fingerprinting existing services on the open ports of a website using nmap and scrot. nmap is a well known tool for scanning network ports and their services while scrot is used to take the screenshot of the output screen and save it at a particular location.
+# Ninja Framework
+This is a framework for scanning network ports, their services and saves the results as screenshots to make your job easier."
+It uses nmap and scrot. You can use this framework in either network mode or single-host(device) mode.
+In network mode: 
+1. It scans the given range of IP addresses one-by-one using default group of scrips.
+2. It uses default group of scripts to reduce the time complexity.
+3. It generates the report by saving the screenshot of the output by creating a folder for each IP Address. For example, if the IP Address of the network device is 192.168.0.2, then it will save the screenshot in a folder named 192.168.0.2. This folder will be created inside the Ninja folder on the desktop.
+In single-device mode,
+1. It will ask you to choose between default scripts, particular group of scripts or the best-of-all scripts.
+2. In the particular group of scripts, it will ask you whether you want to scan the target with each and every group of script.
 
 ## Getting Started
 1. Check whether nmap is installed on your computer. If not, install it from [here](https://nmap.org).
 2. Install scrot on your computer by running the following command on the Terminal: `sudo apt-get install scrot`.
+3. Use Terminal in full-screen mode. Also, for better and accurate results, Zoom Out twice in the terminal. The option to Zoom Out in terminal is given under `View` dropdown. Alternatively, you can press `Ctrl + - ` twice to do the same.
 
 ## Running the Script
 1. Download or clone this repository. Unzip.
 2. Change your present directory on Terminal to the location where you have extracted the downloaded zip file.
-3. Simply run the file by typing `./fingerprinting`.
-4. It will then ask you for entering the website or the IP Address of your target. Enter it accordingly and press enter.
-5. It will initiate port & service scanning using nmap and once it is completed, it will save the screenshot of the result on the Desktop.
-6. A beep tone at the end will specify that the screenshot of the output screen has been taken and the execution process has been completed.
+3. Simply run the file by typing `.ninja`.
+4. It will ask you whether you want to use it in network mode or singe-host mode. Choose your mode and follow instructions given along with each step.
+5. Just in case you go for specific script groups, it will clear the screen before proceeding to the next step.
+6. A beep tone at the end will specify that the screenshot of the output screen has been taken and a particular execution process has been completed.
 
 ## Author Contact Details
 Raj Pagariya (@rajpagariya)
