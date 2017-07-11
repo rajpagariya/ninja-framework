@@ -17,7 +17,8 @@ It uses nmap and scrot. You can use this framework in either network mode or sin
 ## Running the Script
 1. Download or clone this repository. Unzip.
 2. Change your present directory on Terminal to the location where you have extracted the downloaded zip file.
-3. Simply run the file by typing `.ninja`.
+3. Make sure that the file is executable by running the following command: `chmod +x ninja`
+3. Simply run the file by typing `./ninja`.
 4. It will ask you whether you want to use it in network mode or singe-host mode. Choose your mode and follow instructions given along with each step.
 5. Just in case you go for specific script groups, it will clear the screen before proceeding to the next step.
 6. A beep tone at the end will specify that the screenshot of the output screen has been taken and a particular execution process has been completed.
