@@ -27,7 +27,6 @@ fi
 if [ $input = 1 ]
 	then source /root/directorybuster
 fi
-echo "You can run this file again if you want to perform different operations. Ignore folder creation error after the first run as the folder is already created during the first run."
-echo "You can send your reviews at rajpagariya@hotmail.com. Suggestions & Improvements are Welcome.
-Thank You."
+echo "You can run this file again if you want to perform different operations."
+echo "You can send your reviews at rajpagariya@hotmail.com. Suggestions & improvements are welcome!! Thank you."
 
