@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "|-----------------------------------------------------|"
+echo "| NNNN	     NN  II  NNNN       NN       JJ  AAAAAAAA |"
+echo "| NN  NN     NN  II  NN  NN     NN       JJ  AA    AA |"
+echo "| NN   NN    NN  II  NN   NN    NN       JJ  AA    AA |"
+echo "| NN    NN   NN  II  NN    NN   NN   JJ  JJ  AAAAAAAA |"
+echo "| NN     NN  NN  II  NN      NN NN   JJ  JJ  AA    AA |"
+echo "| NN       NNNN  II  NN       NNNN   JJJJJJ  AA    AA |"
+echo "|----------------------------------------------------------------------------------------------|"                                                      
+echo "| FFFFFFFF  RRRRRRRR   AAAAAAAA  MMMMMMMMMM  EEEEEEEE  WW  WW  WW  OOOOOOOO  RRRRRRRR  KK   KK |"  
+echo "| FF	    RR     R   AA    AA  MM  MM  MM  EE	       WW  WW  WW  OO    OO  RR     R  KK  KK  |"
+echo "| FF        RRRRRRRR   AA    AA  MM  MM  MM  EEEEEEEE  WW  WW  WW  OO    OO  RRRRRRRR  KKKKK   |"
+echo "| FFFFFFF   RR RR      AAAAAAAA  MM  MM  MM  EEEEEEEE  WW  WW  WW  OO    OO  RR RR     KKKKK   |"
+echo "| FF	    RR  RR     AA    AA  MM  MM  MM  EE	       WW  WW  WW  OO    OO  RR  RR    KK  KK  |"
+echo "| FF        RR    RR   AA    AA  MM  MM  MM  EEEEEEEE  WWWWWWWWWW  OOOOOOOO  RR   RR   KK   KK |"
+echo "|----------------------------------------------------------------------------------------------|"
+echo "Author: Raj Pagariya"
+
+echo "You have got two options to start with: Enter 1 for Directory Enumeration and 2 for Network Scanning."
+read input
+if [ $input = 2 ]
+	then source /root/fingerprinting
+fi
+if [ $input = 1 ]
+	then source /root/directorybuster
+fi
+echo "You can run this file again if you want to perform different operations. Ignore folder creation error after the first run as the folder is already created during the first run."
+
+

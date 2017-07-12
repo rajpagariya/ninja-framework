@@ -1,0 +1,231 @@
+#!/bin/bash
+echo "This framework uses dirb to find the list of directories on a website. 
+If your OS does not have dirb, press Ctrl + C to stop the execution of this process and type sudo apt-get install dirb in Terminal to install it.
+____________________________________________________________________________________________________
+Guidelines:
+1. It will not take screenshots like it does in the other part for Network Scanning. So, wisely choose how do you want to scan a website for finding its directories.
+2. If you are a beginner, go with the default scanning. If you are an expert, go for advanced scanning. 
+3. In Advanced Scanning, you will have a number of text files available to choose from. For example, the target website is using Apache (you can know this by using the second tool of the framework), you should opt for advanced scanning by entering the number corresponding to apache.txt.
+4. You can press Ctrl + C any time to stop the execution."
+echo "Enter the target website, don't forget to put http:// or https:// before the website. For example: http://www.rajpagariya.com"
+read target
+echo "Choose the type of scanning you want to perform. Enter 1 for Basic (Default) Scan and 2 for Advanced Scan."
+read scan
+if [ $scan = 1 ]
+	then clear 
+	dirb $target
+fi
+if [ $scan = 2 ]
+	then clear
+	echo "Following are the files available for you to scan the target network. Enter the number corresponding to them to start the scan
+1. big.txt	2. catala.txt	3. euskera.txt	4. extensions_common.txt	5. indexes.txt
+6. mutations_common.text	7. small.txt	8. spanish.txt	9. best1050.txt	10. best110.txt
+11. best15.txt	12. names.txt 13. alphanum_case_extra.txt	14.char.txt	15. test_ext.txt
+16. uri_hex.txt	17. alphanum_case.txt	18. doble_uri_hex.txt	19. unicode.txt 20. apache.txt
+21. axis.txt	22. cgis.txt	23. coldfusion.txt	24. domino.txt	25. fatwire_pagenames.txt
+26. fatwire.txt	27. frontpage.txt	28. hpsmh.txt	29. hyperion.txt	30. iis.txt
+31. iplanet.txt	32. jboss.txt	33. jersey.txt	34. jrun.txt	35. netware.txt
+36. oracle.txt	37. ror.txt	38. sap.txt	39. sharepoint.txt	40. sunas.txt
+41. tests.txt	42. tomcat.txt	43. vignette.txt	44. weblogic.txt	45. websphere.txt"
+	read decision
+	if [ $decision = 1 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/big.txt
+	fi
+	if [ $decision = 2 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/catala.txt
+	fi
+	if [ $decision = 3 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/euskera.txt
+	fi
+	if [ $decision = 4 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/extensions_common.txt
+	fi
+	if [ $decision = 5 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/indexes.txt
+	fi
+	if [ $decision = 6 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/mutations_common.txt
+	fi
+	if [ $decision = 7 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/small.txt
+	fi
+	if [ $decision = 8 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/spanish.txt
+	fi
+	if [ $decision = 9 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/others/best1050.txt
+	fi
+	if [ $decision = 10 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/others/best110.txt
+	fi
+	if [ $decision = 11 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/others/best15.txt
+	fi
+	if [ $decision = 12 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/others/names.txt
+	fi
+	if [ $decision = 13 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/alphanum_case_extra.txt
+	fi
+	if [ $decision = 14 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/char.txt
+	fi
+	if [ $decision = 15 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/text_ext.txt
+	fi
+	if [ $decision = 16 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/uri_hex.txt
+	fi
+	if [ $decision = 17 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/alphanum_case.txt
+	fi
+	if [ $decision = 18 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/double_uri_hex.txt
+	fi
+	if [ $decision = 19 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/stress/unicode.txt
+	fi
+	if [ $decision = 20 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/apache.txt
+	fi
+	if [ $decision = 21 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/axis.txt
+	fi
+	if [ $decision = 22 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/cgis.txt
+	fi
+	if [ $decision = 23 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/coldfusion.txt
+	fi
+	if [ $decision = 24 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/domino.txt
+	fi
+	if [ $decision = 25 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/fatwire_pagenames.txt
+	fi
+	if [ $decision = 26 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/fatwire.txt
+	fi
+	if [ $decision = 27 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/frontpage.txt
+	fi
+	if [ $decision = 28 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/hpsmh.txt
+	fi
+	if [ $decision = 29 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/hyperion.txt
+	fi
+	if [ $decision = 30 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/iis.txt
+	fi
+	if [ $decision = 31 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/jplanet.txt
+	fi
+	if [ $decision = 32 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/jboss.txt
+	fi
+	if [ $decision = 33 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/jersey.txt
+	fi
+	if [ $decision = 34 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/jrun.txt
+	fi
+	if [ $decision = 35 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/netware.txt
+	fi
+	if [ $decision = 36 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/oracle.txt
+	fi
+	if [ $decision = 37 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/ror.txt
+	fi
+	if [ $decision = 38 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/sap.txt
+	fi
+	if [ $decision = 39 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/sharepoint.txt
+	fi
+	if [ $decision = 40 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/sunas.txt
+	fi
+	if [ $decision = 41 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/tests.txt
+	fi
+	if [ $decision = 42 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/tomcat.txt
+	fi
+	if [ $decision = 43 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/vignette.txt
+	fi
+	if [ $decision = 44 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/weblogic.txt
+	fi
+	if [ $decision = 45 ]
+		then clear
+		dirb $target /usr/share/dirb/wordlists/vulns/websphere.txt
+	fi
+	
+fi
+echo "Run the main file (ninja) if you want to scan the website using any different type of wordlist file."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
