@@ -1,4 +1,7 @@
 #!/bin/bash
+chmod +x fingerprinting
+chmod +x directorybuster
+clear
 echo "|-----------------------------------------------------|"
 echo "| NNNN	     NN  II  NNNN       NN       JJ  AAAAAAAA |"
 echo "| NN  NN     NN  II  NN  NN     NN       JJ  AA    AA |"
@@ -16,7 +19,7 @@ echo "| FF        RR    RR   AA    AA  MM  MM  MM  EEEEEEEE  WWWWWWWWWW  OOOOOOO
 echo "|----------------------------------------------------------------------------------------------|"
 echo "Author: Raj Pagariya"
 
-echo "You have got two options to start with: Enter 1 for Directory Enumeration and 2 for Network Scanning."
+echo "You have got two options to start with: Enter 1 for Directory Enumeration and 2 for Service Fingerprinting."
 read input
 if [ $input = 2 ]
 	then source /root/fingerprinting
@@ -25,5 +28,5 @@ if [ $input = 1 ]
 	then source /root/directorybuster
 fi
 echo "You can run this file again if you want to perform different operations. Ignore folder creation error after the first run as the folder is already created during the first run."
-
+echo "You can send your reviews at rajpagariya@hotmail.com. Suggestions & Improvements are Welcome."
 
