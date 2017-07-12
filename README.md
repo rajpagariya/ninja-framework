@@ -1,9 +1,9 @@
 # Ninja Framework
-This framework serves two purposes: `Directory Enumeration & Service Fingerprinting`.
+This framework serves two purposes: `Directory Enumeration & Service Fingerprinting`. It has been designed specifically for the beginners while the experts can also use it to make their job easier.
 ### Directory Enumeration
 In Directory Enumeration mode, it uses `dirb`. It asks a user whether he wants to do a default(basic) scan or an advanced scan. In Advanced scanning mode, it provides a list of wordlist files available with it.
 ### Service Fingerprinting
-In Service Fingerprinting mode, it uses `nmap` to scan a network or a website (or single-device) for their ports, services running on those ports and saving the results as screenshots to make your job easier. It uses nmap and scrot. Further, this mode provides two sub-modes: `Network mode` or `Single-device mode`.
+In Service Fingerprinting mode, it uses `nmap` to scan a network or a website (or single-device) for their ports, services running on those ports and saving the results as screenshots. It uses nmap and scrot. Further, this mode provides two sub-modes: `Network mode` or `Single-device mode`.
 ###### In network mode: 
 1. It scans the given range of IP addresses one-by-one using default group of scrips.
 2. It uses default group of scripts to reduce the time complexity.
