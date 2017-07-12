@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "This is a framework for scanning network ports, their services and saves the results as screenshots to make your job easier.
+echo "This mode in Ninja Framework uses nmap for scanning network ports, their services while it uses scrot for saving the results as screenshots to make your job easier.
 "
-echo "It uses nmap and scrot. If you OS does not have scrot, you can install it by executing the following command in Terminal: sudo apt-get install scrot."
+echo "If you OS does not have scrot, you can install it by executing the following command in Terminal: sudo apt-get install scrot."
 echo "You can use this framework in either network mode or single-host mode.
 In network mode:
 1. It scans the given range of IP addresses one-by-one using default group of scrips.
