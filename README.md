@@ -15,9 +15,9 @@ In Service Fingerprinting mode, it uses `nmap` to scan a network or a website (o
 ## Getting Started
 1. Compatibility: Any Linux flavor having `nmap`, `dirb` and `scrot` installed. 
 2. If you are working on `Kali Linux`, then nmap and dirb are already installed on your computer.
-3. Check whether `nmap` is installed on your computer. If not, install it from [here](https://nmap.org).
+3. Check whether `nmap` is installed on your computer. If not, run the following command: `sudo apt-get install nmap`.
 4. Check whether `dirb` is installed on your computer. If not, run the following command: `sudo apt-get install dirb`.
-5. Install `scrot` on your computer by running the following command on the Terminal: `sudo apt-get install scrot`.
+5. Install `scrot` on your computer by running the following command: `sudo apt-get install scrot`.
 6. Use Terminal in full-screen mode for better results for `Directory Enumeration` as well as `Service Fingerprinting`.
 7. Also, for better and accurate results, Zoom Out twice in the terminal. The option to Zoom Out in terminal is given under `View` dropdown. Alternatively, you can press `Ctrl + - ` twice to do the same.
 
